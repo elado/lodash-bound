@@ -10,7 +10,7 @@
   },
   "author": "Elad Ossadon <elad@ossadon.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "lodash": "^4.13.1"
   }
 }
