@@ -1,0 +1,5 @@
+var fn = require('lodash/<%= name %>');
+
+module.exports = function <%= name %>() {
+  return fn.apply(undefined, [this].concat(Array.from(arguments)));
+};
