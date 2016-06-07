@@ -1,16 +1,48 @@
 {
   "name": "lodash-bound",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Enables chained lodash functions with ES bind (::) syntax",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.js",
+    "build": "rimraf lib && node scripts/build.js",
+    "test": "mocha",
+    "watch:test": "npm test -- -w",
     "prepublish": "npm run build",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "lint": "eslint scripts test"
   },
   "author": "Elad Ossadon <elad@ossadon.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elado/reuse-promise.git"
+  },
+  "keywords": [
+    "lodash",
+    "bind",
+    "bind operator",
+    "double colon",
+    "es6",
+    "es7",
+    "es2015",
+    "es2016"
+  ],
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-lodash": "^3.1.5",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2"
   }
 }
