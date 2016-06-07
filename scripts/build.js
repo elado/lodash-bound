@@ -11,11 +11,18 @@ try {
   fs.mkdirSync(LIB_DIR)
 }
 
-const template = _.template(fs.readFileSync(path.join(__dirname, './template.ejs')))
+const methodTemplate = _.template(fs.readFileSync(path.join(__dirname, './method.ejs')))
 
 methods.forEach(m => {
   fs.writeFileSync(
     path.join(LIB_DIR, `${m}.js`),
-    template({ name: m })
+    methodTemplate({ name: m })
   )
 })
+
+const allMethodsTemplate = _.template(fs.readFileSync(path.join(__dirname, './allMethods.ejs')))
+
+fs.writeFileSync(
+  path.join(LIB_DIR, 'index.js'),
+  allMethodsTemplate({ methods })
+)

@@ -283,7 +283,6 @@ module.exports = `
   method
   methodOf
   mixin
-  noConflict
   noop
   nthArg
   over
@@ -293,7 +292,6 @@ module.exports = `
   propertyOf
   range
   rangeRight
-  runInContext
   stubArray
   stubFalse
   stubObject

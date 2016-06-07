@@ -2,7 +2,7 @@
   "name": "lodash-bound",
   "version": "1.0.2",
   "description": "Enables chained lodash functions with ES bind (::) syntax",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && node scripts/build.js",
     "test": "mocha",

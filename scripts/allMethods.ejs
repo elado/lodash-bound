@@ -1,0 +1,6 @@
+module.exports = {
+  <% methods.forEach(name => { %>
+  <%= name %>: require('./<%= name %>'),
+  _<%= name %>: require('./<%= name %>'),
+  <% }) %>
+};

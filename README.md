@@ -28,6 +28,8 @@ Each method requires only the single corresponding file from lodash, so no unnec
 npm install lodash-bound --save
 ```
 
+Requires also `babel-preset-es2015` and `babel-preset-stage-0` babel presets.
+
 ## Usage
 
 ```js
@@ -50,6 +52,8 @@ let unreadBodyByConversationId = arr
 
 # => { c1: [ 'world' ], c2: [ 'foo', 'bar' ] }
 ```
+
+> Note: Webpack 2 will support 'tree-shaking' which eliminates unused requires. This will allow requiring all methods in one statements: `import { _map, _filter, _groupBy, _mapValues } from 'lodash-bound'`, without requiring all the rest of the methods.
 
 ## Test
 
