@@ -24,5 +24,6 @@
   ],
   "dependencies": {
     "lodash": "^4.13.1"
-  }
+  },
+  "scripts": { "test": "echo \"Tests should run on master branch.\"" }
 }
