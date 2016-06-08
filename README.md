@@ -73,7 +73,7 @@ To do so, the babel plugin needs to point to this library with the `id` option:
 Now the code can `import`/`require` multiple functions from `loadsh-bound`, without requiring the entire library.
 
 ```js
-import { mapValues, filter } from 'lodash-bound'
+import { mapValues, filter } from 'lodash-bound' // can also import { _mapValues, _filter } from 'lodash-bound'
 
 const o = { a: 2, b: 4, c: 3 }
 console.log(o::mapValues(n => n * n)::filter(n => n > 5))
@@ -81,7 +81,7 @@ console.log(o::mapValues(n => n * n)::filter(n => n > 5))
 
 `lodash-webpack-plugin` installation instructions [here](https://github.com/lodash/lodash-webpack-plugin).
 
-Thanks @jdalton for the info!
+Thanks [@jdalton](https://github.com/jdalton) for the info!
 
 > Note: Webpack 2 will support 'tree-shaking' which eliminates unused requires. This will allow requiring all methods in one statements: `import { _map, _filter, _groupBy, _mapValues } from 'lodash-bound'`, without requiring all the rest of the methods, and without babel-plugin-lodash.
 
