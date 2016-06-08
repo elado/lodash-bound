@@ -50,10 +50,40 @@ let unreadBodyByConversationId = arr
   ::_groupBy('conversationId')
   ::_mapValues(x => x::_map('body'))
 
-# => { c1: [ 'world' ], c2: [ 'foo', 'bar' ] }
+// => { c1: [ 'world' ], c2: [ 'foo', 'bar' ] }
 ```
 
-> Note: Webpack 2 will support 'tree-shaking' which eliminates unused requires. This will allow requiring all methods in one statements: `import { _map, _filter, _groupBy, _mapValues } from 'lodash-bound'`, without requiring all the rest of the methods.
+### Usage with `babel-plugin-lodash` and `lodash-webpack-plugin`
+
+This library integrates (almost) seamlessly with [`babel-plugin-lodash`](https://github.com/lodash/babel-plugin-lodash) and [`lodash-webpack-plugin`](https://github.com/lodash/lodash-webpack-plugin).
+
+To do so, the babel plugin needs to point to this library with the `id` option:
+
+#### `.babelrc`
+
+```json
+{
+  "presets": [ "es2015", "stage-0" ],
+  "plugins": [
+    [ "lodash", { "id": "lodash-bound" } ]
+  ]
+}
+```
+
+Now the code can `import`/`require` multiple functions from `loadsh-bound`, without requiring the entire library.
+
+```js
+import { mapValues, filter } from 'lodash-bound'
+
+const o = { a: 2, b: 4, c: 3 }
+console.log(o::mapValues(n => n * n)::filter(n => n > 5))
+```
+
+`lodash-webpack-plugin` installation instructions [here](https://github.com/lodash/lodash-webpack-plugin).
+
+Thanks @jdalton for the info!
+
+> Note: Webpack 2 will support 'tree-shaking' which eliminates unused requires. This will allow requiring all methods in one statements: `import { _map, _filter, _groupBy, _mapValues } from 'lodash-bound'`, without requiring all the rest of the methods, and without babel-plugin-lodash.
 
 ## Test
 
