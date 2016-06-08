@@ -1,6 +1,6 @@
 {
   "name": "lodash-bound",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Enables chained lodash functions with ES bind (::) syntax",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elado/reuse-promise.git"
+    "url": "git+https://github.com/elado/lodash-bound.git"
   },
   "keywords": [
     "lodash",
@@ -28,7 +28,7 @@
     "es2016"
   ],
   "files": [
-    "lib"
+    "*.js"
   ],
   "dependencies": {
     "lodash": "^4.13.1"
