@@ -33,10 +33,10 @@ Requires also `babel-preset-es2015` and `babel-preset-stage-0` babel presets.
 ## Usage
 
 ```js
-import _map from 'lodash-bound/lib/map'
-import _filter from 'lodash-bound/lib/filter'
-import _groupBy from 'lodash-bound/lib/groupBy'
-import _mapValues from 'lodash-bound/lib/mapValues'
+import _map from 'lodash-bound/map'
+import _filter from 'lodash-bound/filter'
+import _groupBy from 'lodash-bound/groupBy'
+import _mapValues from 'lodash-bound/mapValues'
 
 let arr = [
   { id: 'm1', conversationId: 'c1', body: 'hello', read: true },
