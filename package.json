@@ -1,6 +1,6 @@
 {
   "name": "lodash-bound",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Enables chained lodash functions with ES bind (::) syntax",
   "main": "index.js",
   "author": "Elad Ossadon <elad@ossadon.com>",
