@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/subtract');
 
 module.exports = function subtract() {

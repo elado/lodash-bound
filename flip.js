@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/flip');
 
 module.exports = function flip() {

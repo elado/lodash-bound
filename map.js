@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/map');
 
 module.exports = function map() {

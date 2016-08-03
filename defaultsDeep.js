@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/defaultsDeep');
 
 module.exports = function defaultsDeep() {

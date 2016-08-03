@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isSafeInteger');
 
 module.exports = function isSafeInteger() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/startCase');
 
 module.exports = function startCase() {

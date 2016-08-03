@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isLength');
 
 module.exports = function isLength() {

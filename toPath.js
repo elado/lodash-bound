@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toPath');
 
 module.exports = function toPath() {

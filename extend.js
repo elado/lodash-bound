@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/extend');
 
 module.exports = function extend() {

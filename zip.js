@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/zip');
 
 module.exports = function zip() {

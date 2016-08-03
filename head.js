@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/head');
 
 module.exports = function head() {

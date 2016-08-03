@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/flow');
 
 module.exports = function flow() {

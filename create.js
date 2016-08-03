@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/create');
 
 module.exports = function create() {

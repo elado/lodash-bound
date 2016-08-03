@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isTypedArray');
 
 module.exports = function isTypedArray() {

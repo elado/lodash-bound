@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/kebabCase');
 
 module.exports = function kebabCase() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isError');
 
 module.exports = function isError() {

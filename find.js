@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/find');
 
 module.exports = function find() {

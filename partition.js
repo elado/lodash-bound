@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/partition');
 
 module.exports = function partition() {

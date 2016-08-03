@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/shuffle');
 
 module.exports = function shuffle() {

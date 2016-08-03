@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/omitBy');
 
 module.exports = function omitBy() {

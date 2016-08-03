@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isNaN');
 
 module.exports = function isNaN() {

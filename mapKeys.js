@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/mapKeys');
 
 module.exports = function mapKeys() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/dropRight');
 
 module.exports = function dropRight() {

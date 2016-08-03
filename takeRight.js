@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/takeRight');
 
 module.exports = function takeRight() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/reverse');
 
 module.exports = function reverse() {

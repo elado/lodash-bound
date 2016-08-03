@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/unescape');
 
 module.exports = function unescape() {

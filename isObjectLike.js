@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isObjectLike');
 
 module.exports = function isObjectLike() {

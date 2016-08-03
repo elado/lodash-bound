@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toInteger');
 
 module.exports = function toInteger() {

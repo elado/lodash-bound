@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/sortedLastIndex');
 
 module.exports = function sortedLastIndex() {

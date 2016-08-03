@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/parseInt');
 
 module.exports = function parseInt() {

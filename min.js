@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/min');
 
 module.exports = function min() {

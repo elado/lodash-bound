@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/without');
 
 module.exports = function without() {

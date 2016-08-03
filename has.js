@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/has');
 
 module.exports = function has() {

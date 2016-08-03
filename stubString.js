@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/stubString');
 
 module.exports = function stubString() {

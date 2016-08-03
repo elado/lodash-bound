@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/attempt');
 
 module.exports = function attempt() {

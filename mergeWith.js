@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/mergeWith');
 
 module.exports = function mergeWith() {

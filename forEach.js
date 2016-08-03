@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/forEach');
 
 module.exports = function forEach() {

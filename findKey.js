@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/findKey');
 
 module.exports = function findKey() {

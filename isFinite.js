@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isFinite');
 
 module.exports = function isFinite() {

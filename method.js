@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/method');
 
 module.exports = function method() {

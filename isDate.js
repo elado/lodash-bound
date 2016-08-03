@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isDate');
 
 module.exports = function isDate() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/result');
 
 module.exports = function result() {

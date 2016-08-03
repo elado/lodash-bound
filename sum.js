@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/sum');
 
 module.exports = function sum() {

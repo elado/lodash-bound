@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/hasIn');
 
 module.exports = function hasIn() {

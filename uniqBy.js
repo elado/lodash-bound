@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/uniqBy');
 
 module.exports = function uniqBy() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/nthArg');
 
 module.exports = function nthArg() {

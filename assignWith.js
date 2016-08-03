@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/assignWith');
 
 module.exports = function assignWith() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/xorWith');
 
 module.exports = function xorWith() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/split');
 
 module.exports = function split() {

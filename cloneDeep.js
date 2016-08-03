@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/cloneDeep');
 
 module.exports = function cloneDeep() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/debounce');
 
 module.exports = function debounce() {

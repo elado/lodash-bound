@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toFinite');
 
 module.exports = function toFinite() {

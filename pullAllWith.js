@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/pullAllWith');
 
 module.exports = function pullAllWith() {

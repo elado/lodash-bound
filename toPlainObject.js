@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toPlainObject');
 
 module.exports = function toPlainObject() {

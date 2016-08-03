@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/reject');
 
 module.exports = function reject() {

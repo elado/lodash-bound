@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isFunction');
 
 module.exports = function isFunction() {

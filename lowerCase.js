@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/lowerCase');
 
 module.exports = function lowerCase() {

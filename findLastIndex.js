@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/findLastIndex');
 
 module.exports = function findLastIndex() {

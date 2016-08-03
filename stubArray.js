@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/stubArray');
 
 module.exports = function stubArray() {

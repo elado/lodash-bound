@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/entries');
 
 module.exports = function entries() {

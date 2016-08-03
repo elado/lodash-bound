@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/keyBy');
 
 module.exports = function keyBy() {

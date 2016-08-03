@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/indexOf');
 
 module.exports = function indexOf() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/deburr');
 
 module.exports = function deburr() {

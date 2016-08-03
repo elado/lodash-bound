@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/extendWith');
 
 module.exports = function extendWith() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/filter');
 
 module.exports = function filter() {

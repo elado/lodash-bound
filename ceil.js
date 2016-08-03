@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/ceil');
 
 module.exports = function ceil() {

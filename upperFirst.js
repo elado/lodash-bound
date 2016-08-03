@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/upperFirst');
 
 module.exports = function upperFirst() {

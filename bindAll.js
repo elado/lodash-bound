@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/bindAll');
 
 module.exports = function bindAll() {

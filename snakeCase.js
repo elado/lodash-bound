@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/snakeCase');
 
 module.exports = function snakeCase() {

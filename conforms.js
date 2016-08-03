@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/conforms');
 
 module.exports = function conforms() {

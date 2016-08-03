@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/after');
 
 module.exports = function after() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/sortBy');
 
 module.exports = function sortBy() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isInteger');
 
 module.exports = function isInteger() {

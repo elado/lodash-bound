@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/constant');
 
 module.exports = function constant() {

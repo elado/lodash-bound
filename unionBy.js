@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/unionBy');
 
 module.exports = function unionBy() {

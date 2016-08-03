@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/partial');
 
 module.exports = function partial() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/trimEnd');
 
 module.exports = function trimEnd() {

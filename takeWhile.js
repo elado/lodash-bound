@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/takeWhile');
 
 module.exports = function takeWhile() {

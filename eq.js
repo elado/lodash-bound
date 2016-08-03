@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/eq');
 
 module.exports = function eq() {

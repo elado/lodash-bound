@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toLower');
 
 module.exports = function toLower() {

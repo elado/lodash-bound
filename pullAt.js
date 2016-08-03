@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/pullAt');
 
 module.exports = function pullAt() {

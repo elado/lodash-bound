@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isWeakMap');
 
 module.exports = function isWeakMap() {

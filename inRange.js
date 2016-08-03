@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/inRange');
 
 module.exports = function inRange() {

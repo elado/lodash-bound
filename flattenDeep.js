@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/flattenDeep');
 
 module.exports = function flattenDeep() {

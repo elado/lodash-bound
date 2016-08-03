@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/slice');
 
 module.exports = function slice() {

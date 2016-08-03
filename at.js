@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/at');
 
 module.exports = function at() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/uniqueId');
 
 module.exports = function uniqueId() {

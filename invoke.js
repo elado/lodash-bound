@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/invoke');
 
 module.exports = function invoke() {

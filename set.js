@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/set');
 
 module.exports = function set() {

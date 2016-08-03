@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/union');
 
 module.exports = function union() {

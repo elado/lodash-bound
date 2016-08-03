@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/flatMapDepth');
 
 module.exports = function flatMapDepth() {

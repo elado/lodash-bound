@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/truncate');
 
 module.exports = function truncate() {

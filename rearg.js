@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/rearg');
 
 module.exports = function rearg() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/max');
 
 module.exports = function max() {

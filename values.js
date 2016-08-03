@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/values');
 
 module.exports = function values() {

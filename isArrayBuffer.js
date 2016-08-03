@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isArrayBuffer');
 
 module.exports = function isArrayBuffer() {

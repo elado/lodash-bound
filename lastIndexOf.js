@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/lastIndexOf');
 
 module.exports = function lastIndexOf() {

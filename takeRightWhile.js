@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/takeRightWhile');
 
 module.exports = function takeRightWhile() {

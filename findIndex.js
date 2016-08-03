@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/findIndex');
 
 module.exports = function findIndex() {

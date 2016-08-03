@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/capitalize');
 
 module.exports = function capitalize() {

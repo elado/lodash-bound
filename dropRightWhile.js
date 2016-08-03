@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/dropRightWhile');
 
 module.exports = function dropRightWhile() {

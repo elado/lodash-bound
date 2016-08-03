@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/chunk');
 
 module.exports = function chunk() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toArray');
 
 module.exports = function toArray() {

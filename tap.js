@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/tap');
 
 module.exports = function tap() {

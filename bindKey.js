@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/bindKey');
 
 module.exports = function bindKey() {

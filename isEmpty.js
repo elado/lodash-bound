@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isEmpty');
 
 module.exports = function isEmpty() {

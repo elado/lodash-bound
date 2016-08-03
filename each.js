@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/each');
 
 module.exports = function each() {

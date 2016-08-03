@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/groupBy');
 
 module.exports = function groupBy() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/eachRight');
 
 module.exports = function eachRight() {

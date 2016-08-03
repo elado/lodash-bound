@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/includes');
 
 module.exports = function includes() {

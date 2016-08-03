@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/intersectionWith');
 
 module.exports = function intersectionWith() {

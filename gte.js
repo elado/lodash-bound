@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/gte');
 
 module.exports = function gte() {

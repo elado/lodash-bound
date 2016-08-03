@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/xorBy');
 
 module.exports = function xorBy() {

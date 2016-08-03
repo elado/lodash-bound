@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/times');
 
 module.exports = function times() {

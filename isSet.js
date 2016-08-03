@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isSet');
 
 module.exports = function isSet() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/noop');
 
 module.exports = function noop() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/ary');
 
 module.exports = function ary() {

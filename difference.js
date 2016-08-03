@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/difference');
 
 module.exports = function difference() {

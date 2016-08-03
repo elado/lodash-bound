@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/zipObjectDeep');
 
 module.exports = function zipObjectDeep() {

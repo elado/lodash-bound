@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/cond');
 
 module.exports = function cond() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/clamp');
 
 module.exports = function clamp() {

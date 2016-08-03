@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/unset');
 
 module.exports = function unset() {

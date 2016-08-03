@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/setWith');
 
 module.exports = function setWith() {

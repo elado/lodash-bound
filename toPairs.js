@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toPairs');
 
 module.exports = function toPairs() {

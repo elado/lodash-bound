@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/assign');
 
 module.exports = function assign() {

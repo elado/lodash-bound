@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/random');
 
 module.exports = function random() {

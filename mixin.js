@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/mixin');
 
 module.exports = function mixin() {

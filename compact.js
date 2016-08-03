@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/compact');
 
 module.exports = function compact() {

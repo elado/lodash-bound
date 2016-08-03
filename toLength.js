@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toLength');
 
 module.exports = function toLength() {

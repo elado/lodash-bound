@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/mean');
 
 module.exports = function mean() {

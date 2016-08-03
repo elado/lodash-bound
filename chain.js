@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/chain');
 
 module.exports = function chain() {

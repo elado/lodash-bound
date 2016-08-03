@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/matchesProperty');
 
 module.exports = function matchesProperty() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/upperCase');
 
 module.exports = function upperCase() {

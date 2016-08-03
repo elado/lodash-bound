@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/minBy');
 
 module.exports = function minBy() {

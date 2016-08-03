@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/valuesIn');
 
 module.exports = function valuesIn() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/join');
 
 module.exports = function join() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/reduce');
 
 module.exports = function reduce() {

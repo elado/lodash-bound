@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/negate');
 
 module.exports = function negate() {

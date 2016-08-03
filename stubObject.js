@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/stubObject');
 
 module.exports = function stubObject() {

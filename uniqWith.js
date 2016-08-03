@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/uniqWith');
 
 module.exports = function uniqWith() {

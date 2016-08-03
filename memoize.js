@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/memoize');
 
 module.exports = function memoize() {

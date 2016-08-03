@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/thru');
 
 module.exports = function thru() {

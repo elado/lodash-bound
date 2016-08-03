@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/pick');
 
 module.exports = function pick() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/defaults');
 
 module.exports = function defaults() {

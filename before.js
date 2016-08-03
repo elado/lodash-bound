@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/before');
 
 module.exports = function before() {

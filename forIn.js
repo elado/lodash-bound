@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/forIn');
 
 module.exports = function forIn() {

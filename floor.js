@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/floor');
 
 module.exports = function floor() {

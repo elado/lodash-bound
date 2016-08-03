@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/iteratee');
 
 module.exports = function iteratee() {

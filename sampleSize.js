@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/sampleSize');
 
 module.exports = function sampleSize() {

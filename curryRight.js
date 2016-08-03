@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/curryRight');
 
 module.exports = function curryRight() {

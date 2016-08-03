@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/round');
 
 module.exports = function round() {

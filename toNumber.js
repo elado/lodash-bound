@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toNumber');
 
 module.exports = function toNumber() {

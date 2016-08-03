@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/defer');
 
 module.exports = function defer() {

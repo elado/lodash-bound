@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isWeakSet');
 
 module.exports = function isWeakSet() {

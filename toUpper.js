@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/toUpper');
 
 module.exports = function toUpper() {

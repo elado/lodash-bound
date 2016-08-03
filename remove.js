@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/remove');
 
 module.exports = function remove() {

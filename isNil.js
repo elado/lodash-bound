@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isNil');
 
 module.exports = function isNil() {

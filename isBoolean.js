@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isBoolean');
 
 module.exports = function isBoolean() {

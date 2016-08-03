@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isElement');
 
 module.exports = function isElement() {

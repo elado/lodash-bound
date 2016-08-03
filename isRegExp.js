@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isRegExp');
 
 module.exports = function isRegExp() {

@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/isEqualWith');
 
 module.exports = function isEqualWith() {

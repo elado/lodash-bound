@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/endsWith');
 
 module.exports = function endsWith() {

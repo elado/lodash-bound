@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/first');
 
 module.exports = function first() {

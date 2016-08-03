@@ -1,3 +1,5 @@
+'use strict';
+
 var fn = require('lodash/matches');
 
 module.exports = function matches() {
